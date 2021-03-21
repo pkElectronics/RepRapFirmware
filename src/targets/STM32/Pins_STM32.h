@@ -10,7 +10,7 @@
 #define UNUSED(x) (void)(x)
 #endif
 
-#define FIRMWARE_NAME "RepRapFirmware for STM32F4 based Boards"
+#define FIRMWARE_NAME "RepRapFirmware for Sigmoid S7P Board"
 
 // Default board type
 #define DEFAULT_BOARD_TYPE BoardType::Stm32F4

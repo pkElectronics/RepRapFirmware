@@ -240,7 +240,7 @@ static constexpr SDCardConfig SDCardConfigs[] = {
 FRESULT InitSDCard(uint32_t boardSig, FATFS *fs)
 {
     FRESULT rslt;
-    int conf = 0;
+    int conf = 2;
     // First try to find a matching board
     debugPrintf("Searching for board signature 0x%x\n", (unsigned) boardSig);
     for(uint32_t i = 0; i < ARRAY_SIZE(SDCardConfigs); i++)
